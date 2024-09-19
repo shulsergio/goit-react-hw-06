@@ -1,28 +1,36 @@
-.classBox{
-margin: 0 0 10px 0;
+.classBox {
+  margin: 0 auto;
 
-    padding: 10px;
-    border: 1px solid #000;
-border-radius: 8px;
-width: 250px;
+  padding: 20px 30px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 250px;
 }
-.inputBlock{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 2px;
-margin-bottom: 8px;
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 4px;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
-.error{
-    font-weight: normal;
-    font-size: 10px;
-    color: red;
-
+.inputBlock:last-child {
+  margin-bottom: 20px;
 }
-.btnSubmit{
-    padding: 4px 8px;
-    border-radius: 8px;
-    display: block;
-/* align-items: center; */
-    margin: 0 auto;
+.error {
+  font-weight: normal;
+  font-size: 14px;
+  color: red;
+}
+.btnSubmit {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ececec;
 }

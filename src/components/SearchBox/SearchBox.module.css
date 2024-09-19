@@ -1,13 +1,26 @@
 .SearchBox {
-  margin-left: 10px;
-  margin-bottom: 10px;
+  /* display: block; */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .label {
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
 .SearchBox input {
-  width: 242px;
+  width: 290px;
+  font-size: 18px;
+  border-radius: 6px;
+  padding-left: 12px;
 }
+.SearchBox input:focus,
+.SearchBox input:active {
+  outline: none;
+  border-color: blue;
+}
+/* .SearchBox input:active + .label {
+  text-shadow: 2px 2px 2px #000;
+} */
